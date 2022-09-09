@@ -1,12 +1,13 @@
 import logo from '../../logo.svg';
-
+import './Home.css';
+import Logo from '../../Images/icon.png'
 function Home(){
 
     return(
         <section>
             <header className='header'>
                 <div className='headerContainer'>
-                    <img src="" alt="" className='logo'/>
+                    <img src={Logo} alt="Logo website" className='logo'/>
                     <div className='buttonHeaderContainer'>
                         <button>Registrate</button>
                         <button>Iniciar Sesión</button>
