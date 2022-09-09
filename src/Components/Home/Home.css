@@ -4,10 +4,20 @@
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
-
 }
 .headerContainer{
     display: flex;
     justify-content: space-between;
+    padding: 20px 40px;
+}
+.buttonHeaderContainer{
+    
+}
+.buttonHeaderContainer button{
+    margin-right: 20px;
+    background-color: #cbf23f;
+    border: #cbf23f;
+    border-radius: 2px;
+    padding: 10px;
+    font-weight: bold;
 }
