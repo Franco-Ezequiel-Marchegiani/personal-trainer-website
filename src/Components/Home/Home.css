@@ -54,5 +54,9 @@
     margin: 0;
     padding-top: 20px;
 }
-
+/* Sections */
+.titleSection{
+    color: #cbf23f;
+    font-weight: normal;
+}
 /* Made change on the background image in the mobile style */
