@@ -1,3 +1,13 @@
 .header{
-    background-image: url("../../Images/portada.jpg");
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../../Images/portada.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
 }
