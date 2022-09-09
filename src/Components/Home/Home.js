@@ -4,7 +4,7 @@ import Logo from '../../Images/icon.png'
 function Home(){
 
     return(
-        <section>
+        <section className='cointainerAll'>
             <header className='header'>
                 <div className='headerContainer'>
                     <img src={Logo} alt="Logo website" className='logo'/>
