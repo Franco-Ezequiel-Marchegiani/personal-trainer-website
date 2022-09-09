@@ -1,23 +1,54 @@
+/* Header */
 .header{
-    height: 500px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url("../../Images/portada.jpg");
-    background-size: 100%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("../../Images/portada.jpg");
+    background-size: 100% 40%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding: 0px 40px;
 }
+/* First column */
 .headerContainer{
     display: flex;
     justify-content: space-between;
-    padding: 20px 40px;
+    padding: 20px 0px;
 }
-.buttonHeaderContainer{
-    
+.logo{
+    width: 60px;
 }
 .buttonHeaderContainer button{
-    margin-right: 20px;
+    margin-right: 16px;
     background-color: #cbf23f;
-    border: #cbf23f;
-    border-radius: 2px;
+    border: 2px solid #cbf23f;
+    border-radius: 4px;
     padding: 10px;
     font-weight: bold;
+    cursor: pointer;
+    color: black;
 }
+.buttonHeaderContainer button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: #cbf23f;
+    border: 2px solid #cbf23f ;
+}
+/* Text of header */
+.textHeaderContainer{
+    padding: 60px 0 0 0;
+}
+.textHeaderContainer h1{
+    color: whitesmoke;
+    font-size: 38px;
+    margin: 0;
+}
+.rowBreake{
+    display: block;
+}
+.textHeaderContainer p{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* Made change on the background image in the mobile style */

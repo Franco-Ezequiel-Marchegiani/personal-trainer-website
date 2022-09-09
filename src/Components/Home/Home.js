@@ -15,7 +15,7 @@ function Home(){
                 </div>
                 <div className='textHeaderContainer'>
                     <h1>Rutinas por Objetivos</h1>
-                    <p>Ya has creado un hábito de entrenamiento, ¡conviértelo en tu estilo de vida!</p>
+                    <p>Ya has creado un hábito de entrenamiento, <span className='rowBreake'>¡conviértelo en tu estilo de vida!</span></p>
                 </div>
             </header>
             <main>
