@@ -19,7 +19,12 @@ function Home(){
             </header>
             <main>
                 <p className='titleSection'>Entrenamientos del día</p>
+                {/* Acá van el componente hijo con la info de una API para que sea escalable */}
             </main>
+            <section>
+                <p>Tipos de Entrenamiento</p>
+                {/* Acá va */}
+            </section>
         </section>
     )
 }
